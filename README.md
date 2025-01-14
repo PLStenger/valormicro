@@ -59,13 +59,6 @@ For install QIIME2, please refer to http://qiime.org/install/install.html
     # Go in the script folder
     cd 00_script
 
-    # Run the second script for cleaned your data
-    time nohup bash 02_trimmomatic_q30.sh &> 02_trimmomatic_q30.out
-    
-        real	1m12.017s
-        user	1m31.466s
-        sys	    0m8.983s
-
     # Run the third script for checking the quality of your cleaned data 
     time nohup bash 03_check_quality_of_cleaned_data.sh &> 03_check_quality_of_cleaned_data.out
 
