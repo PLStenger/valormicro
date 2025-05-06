@@ -1,0 +1,7 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+Mock	/scratch_vol0/fungi/valormicro/03_cleaned_data/Mock_S30_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/Mock_S30_L001_R2_001_paired.fastq.gz
+Eau	/scratch_vol0/fungi/valormicro/03_cleaned_data/Eau_S31_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/Eau_S31_L001_R2_001_paired.fastq.gz
+HS24-PPVneg	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPVneg_S48_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPVneg_S48_L001_R2_001_paired.fastq.gz
+HS24-IMneg	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-IMneg_S52_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-IMneg_S52_L001_R2_001_paired.fastq.gz
+CS24-Imneg	/scratch_vol0/fungi/valormicro/03_cleaned_data/CS24-Imneg_S13_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/CS24-Imneg_S13_L001_R2_001_paired.fastq.gz
+CS24-Ilneg	/scratch_vol0/fungi/valormicro/03_cleaned_data/CS24-Ilneg_S17_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/CS24-Ilneg_S17_L001_R2_001_paired.fastq.gz
