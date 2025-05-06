@@ -11,6 +11,8 @@ mkdir -p $OUTPUT
 # See https://docs.qiime2.org/2018.8/tutorials/importing/
 
 MANIFEST=/scratch_vol0/fungi/valormicro/98_database_files/manifest
+MANIFEST_control_samples=/scratch_vol0/fungi/valormicro/98_database_files/manifest_control
+
 TMPDIR=/scratch_vol0
 
 ###############################################################
@@ -35,13 +37,21 @@ qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' \
 			    --output-path $OUTPUT/core/demux.qza \
 			    --input-format PairedEndFastqManifestPhred33V2
 
+# For negative sample
+qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' \
+    --input-path  $MANIFEST_control_samples \
+    --output-path $OUTPUT/core/demux_neg.qza \
+    --input-format PairedEndFastqManifestPhred33V2       
+
 cd $OUTPUT
 
 qiime demux summarize --i-data core/demux.qza --o-visualization visual/demux.qzv
+qiime demux summarize --i-data core/demux_neg.qza --o-visualization visual/demux_neg.qzv
 
 # for vizualisation :
 # https://view.qiime2.org
 
 qiime tools export --input-path visual/demux.qzv --output-path export/visual/demux
 qiime tools export --input-path core/demux.qza --output-path export/core/demux
-
+qiime tools export --input-path visual/demux_neg.qzv --output-path export/visual/demux_neg
+qiime tools export --input-path core/demux_neg.qza --output-path export/core/demux_neg
