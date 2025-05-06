@@ -51,6 +51,19 @@ qiime dada2 denoise-paired --i-demultiplexed-seqs core/demux.qza \
 --p-trunc-len-r 0 \
 --p-n-threads 4  
 
+##################################################################
+# Control samples
+##################################################################
+qiime dada2 denoise-paired --i-demultiplexed-seqs core/demux_neg.qza \
+--o-table core/Table_neg.qza  \
+--o-representative-sequences core/RepSeq_neg.qza \
+--o-denoising-stats core/Stats_neg.qza \
+--p-trim-left-f 0 \
+--p-trim-left-r 0 \
+--p-trunc-len-f 0 \
+--p-trunc-len-r 0 \
+--p-n-threads 4   
+
 # sequence_contamination_filter :
 #################################
 
@@ -66,13 +79,14 @@ qiime dada2 denoise-paired --i-demultiplexed-seqs core/demux.qza \
 # Blast them in order to catch non necessaries ASV (uncultured, unknown, etc..)
 # Paste them in a contamination_seq.fasta file, then :
  
-qiime tools import \
-  --input-path $NEG_CONTROL/contamination_seq.fasta \
-  --output-path $NEG_CONTROL/contamination_seq.qza \
-  --type 'FeatureData[Sequence]'
+#qiime tools import \
+#  --input-path $NEG_CONTROL/contamination_seq.fasta \
+#  --output-path $NEG_CONTROL/contamination_seq.qza \
+#  --type 'FeatureData[Sequence]'
+
 
 qiime quality-control exclude-seqs --i-query-sequences core/RepSeq.qza \
-      					     --i-reference-sequences $NEG_CONTROL/contamination_seq.qza \
+      					     --i-reference-sequences core/RepSeq_neg.qza\
       					     --p-method vsearch \
       					     --p-threads 6 \
       					     --p-perc-identity 1.00 \
