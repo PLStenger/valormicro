@@ -29,7 +29,7 @@ cd $WORKING_DIRECTORY
 
 for R1 in *R1*
 do
-   R2=${R1//R1.fastq.gz/R2.fastq.gz}
+   R2=${R1//R1_001.fastq.gz/R2_001.fastq.gz}
    R1paired=${R1//.fastq.gz/_paired.fastq.gz}
    R1unpaired=${R1//.fastq.gz/_unpaired.fastq.gz}	
    R2paired=${R2//.fastq.gz/_paired.fastq.gz}
