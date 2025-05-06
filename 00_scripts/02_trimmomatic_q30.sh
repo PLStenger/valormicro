@@ -3,13 +3,13 @@
 # trimmomatic version 0.39
 # trimmomatic manual : http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
 
-WORKING_DIRECTORY=/home/fungi/valormicro/01_raw_data/Original_reads
-OUTPUT=/home/fungi/valormicro/03_cleaned_data
+WORKING_DIRECTORY=/scratch_vol0/fungi/valormicro/01_raw_data/Original_reads
+OUTPUT=/scratch_vol0/fungi/valormicro/03_cleaned_data
 
 # Make the directory (mkdir) only if not existe already(-p)
 mkdir -p $OUTPUT
 
-ADAPTERFILE=/home/fungi/valormicro/99_softwares/adapters_sequences.fasta
+ADAPTERFILE=/scratch_vol0/fungi/valormicro/99_softwares/adapters_sequences.fasta
 
 # Arguments :
 # ILLUMINACLIP:"$ADAPTERFILE":2:30:10 LEADING:30 TRAILING:30 SLIDINGWINDOW:26:30 MINLEN:150
