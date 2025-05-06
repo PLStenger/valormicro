@@ -6,7 +6,7 @@
 # Correct tool citation : Andrews, S. (2010). FastQC: a quality control tool for high throughput sequence data.
 
 
-WORKING_DIRECTORY=/scratch_vol0/fungi/valormicro/01_raw_data/Original_reads
+WORKING_DIRECTORY=/scratch_vol0/fungi/valormicro/01_raw_data/Fastq
 OUTPUT=/scratch_vol0/fungi/valormicro/02_quality_check
 
 # Make the directory (mkdir) only if not existe already(-p)
