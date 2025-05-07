@@ -56,14 +56,14 @@ HS_MO_3	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-MO3_S43_L001_R1_001_
 HS_Moise_1	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise1_S56_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise1_S56_L001_R2_001_paired.fastq.gz
 HS_Moise_2	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise2_S57_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise2_S57_L001_R2_001_paired.fastq.gz
 HS_Moise_3	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise3_S58_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Moise3_S58_L001_R2_001_paired.fastq.gz
-HS_Poe_1	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1MN_S60_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1MN_S60_L001_R2_001_paired.fastq.gz
+HS_Poe_1_MN	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1MN_S60_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1MN_S60_L001_R2_001_paired.fastq.gz
 HS_Poe_1	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1_S44_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe1_S44_L001_R2_001_paired.fastq.gz
 HS_Poe_2	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe2MN_S61_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe2MN_S61_L001_R2_001_paired.fastq.gz
 HS_Poe_3	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe3MN_S62_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Poe3MN_S62_L001_R2_001_paired.fastq.gz
 HS_PPV_1	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV1_S45_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV1_S45_L001_R2_001_paired.fastq.gz
 HS_PPV_2	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV2_S46_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV2_S46_L001_R2_001_paired.fastq.gz
 HS_PPV_3	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV3_S47_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-PPV3_S47_L001_R2_001_paired.fastq.gz
-HS_Voh_2	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2MN_S63_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2MN_S63_L001_R2_001_paired.fastq.gz
+HS_Voh_2_MN	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2MN_S63_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2MN_S63_L001_R2_001_paired.fastq.gz
 HS_Voh_2	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2_S59_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh2_S59_L001_R2_001_paired.fastq.gz
 HS_Voh_3	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh3MN_S64_L001_R1_001_paired.fastq.gz	/scratch_vol0/fungi/valormicro/03_cleaned_data/HS24-Voh3MN_S64_L001_R2_001_paired.fastq.gz
 
