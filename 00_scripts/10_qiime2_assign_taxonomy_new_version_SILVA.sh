@@ -170,17 +170,17 @@ scp -r /scratch_vol0/fungi/dugong_microbiome/05_QIIME2/silva-138.2-ssu-nr99-341f
 
 qiime feature-classifier classify-sklearn \
    --i-classifier taxonomy/16S/Classifier.qza \
-   --i-reads /home/fungi/dugong_microbiome/05_QIIME2/core/ConRepSeq.qza \
+   --i-reads core/ConRepSeq.qza \
    --o-classification taxonomy/16S/taxonomy_reads-per-batch_ConRepSeq.qza
    
 qiime feature-classifier classify-sklearn \
   --i-classifier taxonomy/16S/Classifier.qza \
-  --i-reads /home/fungi/dugong_microbiome/05_QIIME2/core/RepSeq.qza \
+  --i-reads core/RepSeq.qza \
   --o-classification taxonomy/16S/taxonomy_reads-per-batch_RepSeq.qza
 
 qiime feature-classifier classify-sklearn \
   --i-classifier taxonomy/16S/Classifier.qza \
-  --i-reads /home/fungi/dugong_microbiome/05_QIIME2/core/RarRepSeq.qza \
+  --i-reads core/RarRepSeq.qza \
   --o-classification taxonomy/16S/taxonomy_reads-per-batch_RarRepSeq.qza
 
 # Switch to https://chmi-sops.github.io/mydoc_qiime2.html#step-9-assign-taxonomy
@@ -201,19 +201,19 @@ qiime metadata tabulate \
 # Now create a visualization of the classified sequences.
   
 qiime taxa barplot \
-  --i-table /home/fungi/dugong_microbiome/05_QIIME2/core/Table.qza \
+  --i-table core/Table.qza \
   --i-taxonomy taxonomy/16S/taxonomy_reads-per-batch_RepSeq.qza \
   --m-metadata-file $DATABASE/sample-metadata.tsv \
   --o-visualization taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RepSeq.qzv
 
 qiime taxa barplot \
-  --i-table /home/fungi/dugong_microbiome/05_QIIME2/core/ConTable.qza \
+  --i-table core/ConTable.qza \
   --i-taxonomy taxonomy/16S/taxonomy_reads-per-batch_ConRepSeq.qza \
   --m-metadata-file $DATABASE/sample-metadata.tsv \
   --o-visualization taxonomy/16S/16Staxa-bar-plots_reads-per-batch_ConRepSeq.qzv
   
 qiime taxa barplot \
-  --i-table /home/fungi/dugong_microbiome/05_QIIME2/core/RarTable.qza \
+  --i-table core/RarTable.qza \
   --i-taxonomy taxonomy/16S/taxonomy_reads-per-batch_RarRepSeq.qza \
   --m-metadata-file $DATABASE/sample-metadata.tsv \
   --o-visualization taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RarRepSeq.qzv  
