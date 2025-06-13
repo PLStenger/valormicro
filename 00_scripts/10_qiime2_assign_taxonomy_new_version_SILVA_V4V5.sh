@@ -63,7 +63,7 @@ qiime feature-classifier extract-reads \
 
 qiime rescript dereplicate \
     --i-sequences silva-138.2-ssu-nr99-seqs-515f-926r.qza \
-    --i-taxa silva-138.2-ssu-nr99-tax-derep-uniq.qza \
+    --i-taxa /scratch_vol0/fungi/dugong_microbiome/05_QIIME2/silva-138.2-ssu-nr99-tax-derep-uniq.qza \
     --p-mode 'uniq' \
     --o-dereplicated-sequences silva-138.2-ssu-nr99-seqs-515f-926r-uniq.qza \
     --o-dereplicated-taxa  silva-138.2-ssu-nr99-tax-515f-926r-derep-uniq.qza
