@@ -1,6 +1,9 @@
 # valormicro
 Characterization of marine microbial resources for analysis and enhancement of New Caledonia's natural heritage - Project from Drs **Anton Véronique** (CNRS/IRD Nouméa - New Caledonia)
 
+This pipeline led to the publication of this article: https://doi.org/10.1002/jeq2.70215
+*Stenger, P.-L., Majorel, C., Valette, L., Ihage, W., Jardin-Camps, M., Jourand, P., & Anton-Leberre, V. (2026). Spatial structuring dominates over seasonality in tropical coastal microbiomes: Insights from New Caledonia's Indo-Pacific lagoon. Journal of Environmental Quality, 55, e70215. https://doi.org/10.1002/jeq2.70215*
+
 ### Installing pipeline :
 
 First, open your terminal. Then, run these two command lines :
